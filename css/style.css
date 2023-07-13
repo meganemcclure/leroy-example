@@ -1,3 +1,7 @@
+html {
+    height: 100%;
+}
+
 body {
     height: 100%;
     width: 100%;
@@ -6,6 +10,8 @@ body {
     margin: 0px;
 }
 
+
+/* NAVBAR STYLING */
 nav {
     display: block;
     background-color: lightgray;
@@ -24,8 +30,9 @@ nav {
     padding: 20px;
 }
 
+/* SIDEBAR STYLING */
 .sidebar {
-    height: 1000px;
+    height: 100%;
     width: 29%;
     float: left;
     border-color: black;
@@ -43,6 +50,29 @@ nav {
     display: inline-block;
 }
 
+.profile {
+    padding: 50px;
+    text-align: center;
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.stats {
+    padding: 50px;
+}
+
+/* CONTENT STYLING */
+.content {
+    height: 100%;
+    width: 70%;
+    float: left;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    margin: -0.5px;
+}
+
 img {
     object-fit: cover;
     height: 200px;
@@ -55,29 +85,7 @@ img {
     float: left;
 }
 
-.content {
-    height: 1000px;
-    width: 70%;
-    float: left;
-    border-color: black;
-    border-width: 1px;
-    border-style: solid;
-    margin: -0.5px;
-}
-
 .secondarySection {
     padding: 20px;
     margin: 50px;
-}
-
-.profile {
-    padding: 50px;
-    text-align: center;
-    border-bottom-color: black;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-}
-
-.stats {
-    padding: 50px;
 }
