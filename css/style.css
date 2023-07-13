@@ -12,6 +12,7 @@ nav {
     border-color: black;
     border-width: 1px;
     border-style: solid;
+    margin: -0.5px;
 }
 
 .nav-item {
@@ -24,15 +25,59 @@ nav {
 }
 
 .sidebar {
-    /* background-color: blue; */
     height: 1000px;
     width: 29%;
+    float: left;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    margin: -0.5px;
+}
+
+.profilePhoto {
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    border-radius: 200px;
+    display: inline-block;
+}
+
+img {
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    display: inline-block;
+}
+
+#firstImage {
     float: left;
 }
 
 .content {
-    /* background-color: green; */
     height: 1000px;
     width: 70%;
     float: left;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    margin: -0.5px;
+}
+
+.secondarySection {
+    padding: 20px;
+    margin: 50px;
+}
+
+.profile {
+    padding: 50px;
+    text-align: center;
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.stats {
+    padding: 50px;
 }
