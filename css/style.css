@@ -1,0 +1,38 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-color: lightgray;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav {
+    display: block;
+    background-color: lightgray;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.nav-item {
+    background-color: darkslategrey;
+    display: inline-block;
+    color: white;
+    width: 100px;
+    text-align: center;
+    padding: 20px;
+}
+
+.sidebar {
+    /* background-color: blue; */
+    height: 1000px;
+    width: 29%;
+    float: left;
+}
+
+.content {
+    /* background-color: green; */
+    height: 1000px;
+    width: 70%;
+    float: left;
+}
